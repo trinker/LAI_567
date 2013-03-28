@@ -7,25 +7,22 @@
   <meta name="author" content="">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <link rel="stylesheet" href="C:/R/R-2.15.3/library/slidifyLibraries/libraries/frameworks/revealjs/css/reveal.min.css">
-  <link rel="stylesheet" href="C:/R/R-2.15.3/library/slidifyLibraries/libraries/frameworks/revealjs/css/theme/beige.css" id="theme">
-  <link rel="stylesheet" href="C:/R/R-2.15.3/library/slidifyLibraries/libraries/highlighters/highlight.js/css/zenburn.css" id="theme">
+  <link rel="stylesheet" href="./frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="./frameworks/revealjs/css/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="./highlighters/highlight.js/css/zenburn.css" id="theme">
   <!--[if lt IE 9]>
   <script src="lib/js/html5shiv.js"></script>
-  <![endif]-->  <link rel="stylesheet" href = "assets/css/colors.css">
-<link rel="stylesheet" href = "assets/css/ribbons.css">
-
+  <![endif]-->  
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
       <section class='' data-state='' id='slide-1'>
   <h1>Syllables</h1>
-  <h3>3-28-13</h3>
+  <p><img src="http://www.learningresources.com/images/en_US/local/products/detail/prod1562_dt.jpg" alt=""></p>
 
-  <aside class='notes'>
-    
-  </aside>
+<h3>3-28-13</h3>
+
 </section>
 <section>
    <section class='' data-state=''>
@@ -35,7 +32,9 @@
 </div>
 
     <aside class='notes'>
-      
+      <p>These are some notes</p>
+,,,<p>These are some notes</p>
+,pnotes
     </aside>
    </section>
    <section class='' data-state=''>
@@ -75,8 +74,55 @@
     <h2>Vowel Matching</h2>
 
 <div style="width:720px;margin:auto;">
-  <p><img src="figure/list_1_b.png" width="500" height="400"></p>
+  <p><img src="figure/list_1_b.png" width="520" height="390"></p>
 </div>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+</section>
+<section>
+   <section class='' data-state=''>
+    <h2>Onset and Rime</h2>
+    <pre><code>onset + rime = 1 syllable word
+</code></pre>
+
+<pre><code>br + oke = 1 syllable word
+</code></pre>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>Define It</h2>
+
+<div style="width:720px;margin:auto;">
+  <p><img src="figure/onset_rime.png" width="650" height="400"></p>
+</div>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h2>Importance</h2>
+
+<p><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRufSoZpuJtG1L_-ulO_IooQbaMM6fEklGHI66UwJ8_Vzn84zM7Nw" alt=""></p>
+
+<ul>
+<li>Instrumental in dealing with word families</li>
+</ul>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
+    <h3>Break the Following Into Onset and Rime<img src="figure/directions.png" width="200" height="150"></h3>
+
+<p><img src="figure/new.png" alt=""></p>
 
     <aside class='notes'>
       
@@ -110,37 +156,48 @@
    <section class='' data-state=''>
     <h3>Six Types of Syllables in English</h3>
 
+<ol>
+<li>Six types Guided Practice</li>
+<li>Marking Syllables Joint Practice</li>
+<li>Marking Syllables Individual </li>
+</ol>
+
     <aside class='notes'>
       
     </aside>
    </section>
 </section>
-<section class='' data-state='' id='slide-4'>
-  
-  
-  <aside class='notes'>
-    
-  </aside>
-</section>
     </div>
   </div>
 </body>
-  <script src="C:/R/R-2.15.3/library/slidifyLibraries/libraries/frameworks/revealjs/lib/js/head.min.js"></script>
-  <script src="C:/R/R-2.15.3/library/slidifyLibraries/libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script src="./frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="./frameworks/revealjs/js/reveal.min.js"></script>
   <script>
-      // Full list of configuration options available here:
-      // https://github.com/hakimel/reveal.js#configuration
-      Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        theme: Reveal.getQueryHash().theme || 'beige', 
-        transition: Reveal.getQueryHash().transition || 'cube', 
-      });
-  </script>
-  <!-- LOAD HIGHLIGHTER JS FILES -->
-  <script src="C:/R/R-2.15.3/library/slidifyLibraries/libraries/highlighters/highlight.js/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
-  </html>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'beige', 
+    transition: Reveal.getQueryHash().transition || 'cube', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: './frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: './frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: './frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: './frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="./highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>

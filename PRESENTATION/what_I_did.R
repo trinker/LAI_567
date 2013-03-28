@@ -1,7 +1,10 @@
+# library(devtools)
+# install_github('slidify', 'ramnathv', ref = 'dev')
+# install_github('slidifyLibraries', 'ramnathv', ref = 'dev')
 setwd("C:/Users/trinker/GitHub/LAI_567/PRESENTATION")
 library(slidify)
 library(slidifyLibraries)
-pagify("index.Rmd")
+slidify("index.Rmd")
 
 sessionInfo()
 ## > sessionInfo()
